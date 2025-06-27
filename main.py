@@ -16,7 +16,7 @@ def get_weather(city_name, api_key):
         print(f"Temperature in {city_name}: {temp}°C")
         print(f"Condition: {condition}")
 
-        # Mood logic inside the success block
+        
         if "rain" in condition.lower():
             mood = "🌧️ Don't forget your umbrella!"
         elif "sunny" in condition.lower():
